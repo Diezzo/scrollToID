@@ -1,4 +1,4 @@
- var links = document.querySelectorAll('.scrollTo');
+const links = document.querySelectorAll('.scrollTo');
 for(let i of links){
     const elem = i.getAttribute("data-target");
     if (elem !== '') {
